@@ -1,0 +1,24 @@
+{
+  "name": "strapi-provider-upload-tencentcloud-vod",
+  "version": "1.0.1",
+  "description": "Tencent Cloud VOD provider for strapi upload",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "joryu@cistech.com",
+    "name": "Jaeook Ryu",
+    "url": "http://www.cistch.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:planet6897/strapi-provider-upload-tencentcloud-vod.git"
+  },
+  "main": "./lib",
+  "license": "MIT",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.5.6",
+    "lodash": "^4.17.15",
+    "tencentcloud-sdk-nodejs": "^3.0.42"
+  }
+}
